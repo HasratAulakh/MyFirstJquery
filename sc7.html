@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#b1").click(function(){
+$("#p1").text("P1 has changed");
+});
+$("#b2").click(function(){
+$("#p2").html("<b> P2 has changed </b>");
+});
+$("#b3").click(function(){
+
+$("#p3").val("Engineering");
+alert($("#p3").text("alert").val());
+});
+});
+</script>
+</head>
+<body>
+<p id="p1"> Hasrat </p>
+<p id="p2"> Sukhmeet </p>
+<p> Input Field : <input type="text" id="p3" value="Depika"> </p>
+<button id="b1"> Text </button>
+<button id="b2"> HTML </button>
+<button id="b3"> Value </button>
+</body>
+</html> 
